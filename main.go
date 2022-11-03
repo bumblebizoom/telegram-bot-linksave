@@ -11,11 +11,10 @@ import (
 
 const (
 	tgBotHost   = "api.telegram.org"
-	storagePath = "storage"
+	storagePath = "file_storage"
 	batchSize   = 100
 )
 
-// 5600465705:AAGgVue0H0rRa69k5XA1IxIjziZ5Hue_Ys0
 func main() {
 
 	eventsProcessor := telegram2.New(
