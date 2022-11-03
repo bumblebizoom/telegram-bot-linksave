@@ -7,7 +7,7 @@ type UpdatesResponse struct {
 
 type Update struct {
 	ID      int              `json:"update_id"`
-	Massage *IncomingMessage `json:"massage"`
+	Massage *IncomingMessage `json:"message"`
 }
 
 type IncomingMessage struct {

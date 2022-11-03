@@ -78,10 +78,10 @@ func (p *Processor) sendRandom(chatID int, username string) (err error) {
 	return p.storage.Remove(page)
 }
 
-func (p Processor) sendHelp(chatID int) error {
+func (p *Processor) sendHelp(chatID int) error {
 	return p.tg.SandMessage(chatID, msgHelp)
 }
-func (p Processor) sendHello(chatID int) error {
+func (p *Processor) sendHello(chatID int) error {
 	return p.tg.SandMessage(chatID, msgHello)
 }
 

@@ -1,16 +1,17 @@
 package telegram
 
-const msgHelp = `Я можу зберігати і вести ваші сторінки. Також я можу запропонувати вам їх прочитати.
+const msgHelp = `I can save and keep you pages. Also i can offer you them to read.
 
-Для того, щоб зберегти сторінку, просто надішліть мені всі посилання на неї!
+In order to save the page , just send me all link to it.
 
-Для того, щоб отримати випадкову сторінку з вашого списку, надішліть мені команду /cmd
-Увага! Після цього, ця сторінка буде вилучена з вашого списку!!!`
-const msgHello = "Привііііт! 👾\n\n" + msgHelp
+In order to get a random page from your list, send me command /rnd
+Caution! After that, this page will be removed from your list!`
+
+const msgHello = "Hello there! 👾 \n\n" + msgHelp
 
 const (
-	msgUnknownCommand = "Не розумію що робитиии 🥶"
-	msgNoSavedPages   = "У тебе немає збережених сторінок 🙄"
-	msgSaved          = "Зберіг! ✅"
-	msgAlreadyExists  = "Ця сторінка вже є в списку 🤗"
+	msgUnknownCommand = "I don't understand u 🙄"
+	msgNoSavedPages   = "U have no saved pages 😟"
+	msgSaved          = "Saved! 📥"
+	msgAlreadyExists  = "You have already have this page in your list. 😉"
 )
